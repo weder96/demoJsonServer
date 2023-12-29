@@ -1,0 +1,196 @@
+{
+  "recordCount": 1,
+  "content": [
+    {"id": 1, 
+     "name": "Jhon", 
+     "birthDate": "1983-12-11", 
+     "system": "021",
+     "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+     "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+     "observations": [{"id": "77ef15b3-dcb0-4fbd", "description": "descr Jhon"}],     
+     "process": {"id": 10, "date": "2021-04-25T21:30:05", "users": "user01-branch-05", 
+                 "statusWorkFlow": {"id": 1, "description": "Approved"}
+                },
+     "operation": {"code":"SXF/2", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+     "payments": [
+          {"installmentId": 156335, "code":"SXF/2", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05",
+            "statusPayment": {"id": 2, "description": "Received"}
+          }, 
+          {"installmentId": 216335, "code":"SXF/2", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05",
+            "statusPayment": {"id": 1, "description": "Open"}
+          }
+     ],
+     "custom": "{\"teste\": \"valor do teste 1\"}",
+     "transactions": [
+        {"transactionId": 1, "processId": 10, "operationCode": "SXF/2", "transactionsPayments": 
+           [
+            {"installmentId": 156335, "value": 150.48, "datePayment": "2021-04-30T21:30:05", "rate": 2.38 }
+           ]
+        }
+     ]
+    },
+    {"id": 2, 
+     "name": "Sara", 
+     "birthDate":"1987-07-09", 
+     "system": "005",
+     "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+     "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+     "observations": [{"id": "b75cf085-c52d-4336", "description": "descr Sara"}],     
+     "process": {"id": 15, "date": "2021-04-25T21:30:05", "users": "user02-branch-05",
+                 "statusWorkFlow": {"id": 1, "description": "Renegotiated"}
+                },
+     "operation": {"code":"SXF/4", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+     "payments": [
+          {"installments": 155335, "code":"SXF/4", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 5, "description": "Cancelled"}
+          }, 
+          {"installments": 215335, "code":"SXF/4", "paymentSystem": "4", "value": 199.08,"date": "2021-04-25T21:30:05",          
+           "statusPayment": {"id": 1, "description": "Open"}
+          }
+      ],
+     "custom": "{\"teste\": \"valor do teste 1\"}"
+    },
+    {"id": 3, 
+      "name": "Domnic", 
+      "birthDate":"1968-10-12", 
+      "system": "021",
+      "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+      "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+      "observations": [{"id": "6e381cb3-40d9-4838", "description": "descr Domnic"}],      
+     "process": {"id": 20, "date": "2021-04-25T21:30:05", "users": "user04-branch-05",
+                 "statusWorkFlow": {"id": 1, "description": "Approved"}
+                },
+     "operation": {"code":"SXF/6", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+      "payments": [
+          {"installments": 154335,"code":"SXF/6", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05", 
+           "statusPayment": {"id": 1, "description": "Open"}
+          }, 
+          {"installments": 214335,"code":"SXF/6", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05", 
+           "statusPayment": {"id": 1, "description": "Open"}
+          }
+      ],
+      "custom": "{\"teste\": \"valor do teste 1\"}"
+    },
+    {
+      "id": 4, 
+      "name": "Bravo", 
+      "birthDate":"1991-01-07", 
+      "system": "078",
+      "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+      "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+      "observations": [{"id": "efd351ab-ce2a-441f", "description": "descr Bravo"}],      
+      "process": {"id": 25, "date": "2021-04-25T21:30:05", "users": "user07-branch-05",
+                  "statusWorkFlow": {"id": 1, "description": "Approved"}
+                 },
+      "operation": {"code":"SXF/8", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+      "payments": [
+          {"installments": 153335, "code":"SXF/8", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 1, "description": "Open"}
+          }, 
+          {"installments": 213335, "code":"SXF/8", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05", 
+           "statusPayment": {"id": 5, "description": "Cancelled"}
+          }
+      ],
+      "custom": "{\"teste\": \"valor do teste 1\"}"
+    },
+    {
+      "id": 5, 
+      "name": "Steve", 
+      "birthDate":"1999-03-01",
+      "system": "005",
+      "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+      "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+      "observations": [{"id": "77ef15b3-dcb0-4fbd", "description": "descr Jhon"}],      
+      "process": {"id": 78, "date": "2021-04-25T21:30:05", "users": "user99-branch-05",
+                  "statusWorkFlow": {"id": 1, "description": "Canceled"}
+                 },
+      "operation": {"code":"SXF/10", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+      "payments": [
+          {"installments": 152335, "code":"SXF/10", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 1, "description": "Open"}
+          }, 
+          {"installments": 212335, "code":"SXF/10", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 4, "description": "Expired"}
+          }
+      ],
+      "custom": "{\"teste\": \"valor do teste 1\"}"
+    },
+    {
+      "id": 6, 
+      "name": "Sara", 
+      "birthDate":"2000-06-15",
+      "system": "005",
+      "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+      "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+      "observations": [{"id": "b75cf085-c52d-4336", "description": "descr Sara"}],      
+      "process": {"id": 18, "date": "2021-04-25T21:30:05", "users": "user09-branch-05",
+                  "statusWorkFlow": {"id": 1, "description": "Canceled"}
+                 },
+      "operation": {"code":"SXF/12", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+      "payments": [
+          {"installments": 151335, "code":"SXF/12", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 1, "description": "Open"}
+          }, 
+          {"installments": 211335, "code":"SXF/12", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 1, "description": "Open"}
+          }
+      ],
+      "custom": "{\"teste\": \"valor do teste 1\"}"
+    },
+    {
+      "id": 7, 
+      "name": "Bernard", 
+      "birthDate":"2003-10-18", 
+      "system": "078",
+      "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+      "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+      "observations": [{"id": "6e381cb3-40d9-4838", "description": "descr Domnic"}],      
+      "process": {"id": 40, "date": "2021-04-25T21:30:05", "users": "user21-branch-05",
+                  "statusWorkFlow": {"id": 1, "description": "Approved"}
+                 },
+      "operation": {"code":"SXF/14", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+      "payments": [
+          {"installments": 150368, "code":"SXF/14", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 1, "description": "Open"}
+          }, 
+          {"installments": 210399, "code":"SXF/14", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 3, "description": "Cancelled"}
+          }
+      ],
+      "custom": "{\"teste\": \"valor do teste 1\"}"
+    },
+    {
+      "id": 8, 
+      "name": "Anne", 
+      "birthDate":"1975-04-21", 
+      "system": "005",
+      "hobby": {"reading" : true,"gaming" : false,"sport" : "football"},
+      "finance": {"rate": null, "currency": 720264.35, "bankAmount": 544545.00 }, 
+      "observations": [{"id": "efd351ab-ce2a-441f", "description": "descr Bravo"}],      
+      "process": {"id": 55, "date": "2021-04-25T21:30:05", "users": "user78-branch-05",
+                  "statusWorkFlow": {"id": 1, "description": "Canceled"}
+                 },
+      "operation": {"code":"SXF/21", "date": "2021-04-25T21:30:05" , "value": 554.23, "rate": 2.3},
+      "payments": [
+          {"installments": 150335, "code":"SXF/21", "paymentSystem": "4", "value": 150.48, "date": "2021-04-25T21:30:05", 
+           "statusPayment": {"id": 2, "description": "Received"}
+          }, 
+          {"installments": 210335, "code":"SXF/21", "paymentSystem": "4", "value": 199.08, "date": "2021-04-25T21:30:05", 
+           "statusPayment": {"id": 2, "description": "Received"}
+          },
+          {"installments": 210378, "code":"SXF/21", "paymentSystem": "4", "value":  39.15, "date": "2021-04-25T21:30:05",
+           "statusPayment": {"id": 1, "description": "Open"}
+          }
+      ],
+      "custom": "{\"teste\": \"valor do teste 8\"}",
+       "transactions": [
+        {"transactionId": 2, "processId": 55, "operationCode": "SXF/21", "transactionsPayments": 
+           [
+            {"installmentId": 150335, "value": 150.48, "datePayment": "2021-04-30T21:30:05", "rate": 2.38 },
+            {"installmentId": 210335, "value": 150.48, "datePayment": "2021-04-30T21:30:05", "rate": 2.38 }
+           ]
+        }
+     ]
+    }
+   ]
+}
